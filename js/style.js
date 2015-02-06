@@ -1,7 +1,9 @@
 $(document).ready(function() {
  var wHeight = $(window).height();
  var stickToBot = wHeight - $('.nav').outerHeight(true);
- $('#about').hide();
+   $('.logo').hide();
+ $('.logo').fadeIn();
+
  $('#works').hide();
  $('#contact').hide();
  $('.nav').hide();
@@ -25,7 +27,6 @@ $(document).ready(function() {
   if (y == 0) {
     $('.scroll').fadeOut();
   }
-
 
 $(window).scroll(function() {
    var scrollVal = $(this).scrollTop();
@@ -61,4 +62,5 @@ $(window).scroll(function() {
 });
 
 });
+
 
