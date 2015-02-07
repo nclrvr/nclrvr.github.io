@@ -1,6 +1,6 @@
 $(document).ready(function() {
  var wHeight = $(window).height();
- var stickToBot = $(window).height(); - $('.nav').outerHeight(true);
+ var stickToBot = wHeight - $('.nav').outerHeight(true);
    $('.logo').hide();
  $('.logo').fadeIn();
 
@@ -42,7 +42,20 @@ $(window).scroll(function() {
     $('ul li').css({'font-size':'1.2em'});
     $('.nav-logo').fadeOut();
 
-   
+    $(document).ready(function() {
+
+       function setHeight() {
+        var windowHeight = $(window).innerHeight();
+       
+      };
+      setHeight();
+
+      $(document).load(function () { $(window).resize(function() {
+        setHeight();
+      });
+});
+
+    });
   }
 });
 });
