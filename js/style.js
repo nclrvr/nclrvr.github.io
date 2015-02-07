@@ -4,8 +4,6 @@ $(document).ready(function() {
    $('.logo').hide();
  $('.logo').fadeIn();
 
- $('#works').hide();
- $('#contact').hide();
  $('.nav').hide();
  $('.nav-logo').hide();
 

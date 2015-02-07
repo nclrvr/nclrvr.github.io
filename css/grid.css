@@ -56,12 +56,13 @@
 
     .nav {
       position: relative;
+      float: right;
     }
   }
 
 @media (max-device-width: 750px) {
   ul li, li {width:100%;}
-  .nav-logo {margin-left: 100px;}
+ 
 }
 
 
