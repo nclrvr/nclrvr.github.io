@@ -8,7 +8,7 @@ $(document).ready(function() {
  $('#contact').hide();
  $('.nav').hide();
  $('.nav-logo').hide();
- $('.nav').css({'top': stickToBot + 'px'});
+
  $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 30) {
