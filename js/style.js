@@ -17,7 +17,7 @@ $(document).ready(function() {
   } if ( y > 180) {
  $('#about').fadeIn();
 
-  } if ( y > 840 ) {
+  } if ( y > 500 ) {
   $('#works').fadeIn();
   }
   if ( y > 2010 ) {
@@ -42,21 +42,7 @@ $(window).scroll(function() {
     $('ul li').css({'font-size':'1.2em'});
     $('.nav-logo').fadeOut();
 
-    $(document).ready(function() {
-
-       function setHeight() {
-        var windowHeight = $(window).innerHeight();
-        $('body').css('min-height', windowHeight);
-        $('#home').css('min-height', windowHeight);
-      };
-      setHeight();
-
-      $(document).load(function () { $(window).resize(function() {
-        setHeight();
-      });
-});
-
-    });
+   
   }
 });
 });
