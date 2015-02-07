@@ -49,15 +49,11 @@
 	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{width:100%;}
 }
 
-@media only screen and (max-device-width: 480px) {
-    #home {
-
-    }
-
-    .nav {
-      
-    }
-  }
+@media(max-width: 767px) {
+  .navbar {
+     position:fixed; top:0; left:0; z-index:1030;
+   }
+}
 
 @media (max-device-width: 750px) {
   ul li, li {width:100%;}
