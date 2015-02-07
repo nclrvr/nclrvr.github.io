@@ -9,17 +9,23 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script language="javascript" type="text/javascript" src="js/style.js"></script>
 <script language="javascript" type="text/javascript" src="js/smoothscroll.js"></script>
+<script type='text/javascript'>
+$(function(){
+    $('#home').css({'height':(($(window).height())-162)+'px'});
+
+    $(window).resize(function(){
+    $('#home').css({'height':(($(window).height())-162)+'px'});
+    });
+});
+</script>
 </head>
 <body>
 
 <div style="margin-top:-15%; padding-bottom:15%;">
 <div id="home">
 <div class="wrapper center"> 
-
-<div class="col-4 center">
-<img class="logo hvr-grow" src="images/nr-logo-green.png" alt="NR logo"/>
-</div>
 <div class="col-12 logo">
+<img class="hvr-grow" src="images/nr-logo-green.png" style="width:30%"alt="NR logo"/>
 <h1 style="color:#7b7b7b">N I C A E L A &nbsp; R .</h1>
 <h4 style="color:#7b7b7b">W E B &nbsp; & &nbsp; G R A P H I C</h4><br><br><br>
 <div class="scroll"><a href="#home"></i><h4 style="font-size:1em"><i style="display:inline" class="fa fa-caret-down fa-1x"></i>S C R O L L&nbsp;</h4></a></div>
