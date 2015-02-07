@@ -1,6 +1,6 @@
 $(document).ready(function() {
  var wHeight = $(window).height();
- var stickToBot = $('#home').height(); + $('.nav').outerHeight(true);
+ var stickToBot = $(window).height(); - $('.nav').outerHeight(true);
    $('.logo').hide();
  $('.logo').fadeIn();
 
@@ -40,7 +40,9 @@ $(window).scroll(function() {
   else {
    $('.nav').css({'position':'absolute','top': stickToBot +'px', 'background':'none'});
     $('ul li').css({'font-size':'1.2em'});
-    $('.nav-logo').fadeOut();   
+    $('.nav-logo').fadeOut();
+
+   
   }
 });
 });
