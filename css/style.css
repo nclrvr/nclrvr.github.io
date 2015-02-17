@@ -157,7 +157,7 @@ li {
 #home{
   position: relative;
   text-align: center;
-  margin: 0 0 0 0;
+  margin: 20% 0 0 0;
    padding-top: 20%;
    padding-bottom: 50%;
    background: #fafafa;
@@ -198,7 +198,7 @@ li {
  padding-right: 5%;
   padding-left: 5%;
   line-height: 40px;
-  padding-bottom: 10%;
+
 }
 
 

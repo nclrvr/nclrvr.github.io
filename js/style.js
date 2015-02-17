@@ -4,13 +4,13 @@ $(document).ready(function() {
    $('.logo').hide();
  $('.logo').fadeIn();
 
- $('.nav').hide();
+ $('.navbar').hide();
  $('.nav-logo').hide();
 
  $(document).scroll(function() {
   var y = $(this).scrollTop();
   if (y > 30) {
-    $('.nav').fadeIn();
+    $('.navbar').fadeIn();
     $('.scroll').fadeOut();
   } if ( y > 180) {
  $('#about').fadeIn();
@@ -30,14 +30,14 @@ $(window).scroll(function() {
    var scrollVal = $(this).scrollTop();
    var state = true
    if ( scrollVal > stickToBot ) {
-    $('.nav').css({'position':'fixed','top' :'0px', 'background':'white'});
+    $('.navbar').css({'position':'fixed','top' :'0px', 'background':'white'});
     $('ul li').css({'font-size':'1em'});
     $('.nav-logo').fadeIn();
 
   }
   else {
-   $('.nav').css({'position':'absolute','top': stickToBot +'px', 'background':'none'});
-    $('ul li').css({'font-size':'1.2em'});
+   $('.navbar').css({'position':'absolute','top': stickToBot +'px', 'background':'#fafafa'});
+    $('ul li').css({'font-size':'1em'});
     $('.nav-logo').fadeOut();
 
     $(document).ready(function() {
