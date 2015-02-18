@@ -235,6 +235,9 @@ p {
   font-size: 5vmin;
 }
 
+.nav-bar {
+	display: inline-block;
+}
 .col-4 {
 	text-align: center;
 }
