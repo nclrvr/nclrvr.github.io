@@ -235,7 +235,7 @@ h3 {
 h4 {
   font-size: 1.5vh;
 }
-p, .nav-item {
+p, ul li {
   font-size: 5vmin;
 }
 .logo {
