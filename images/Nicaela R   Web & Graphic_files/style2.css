@@ -185,8 +185,9 @@ ul {
 }
 
 .logo {
-	width: 55vh;
+	width: 55vw;
 }
+
 .nav-logo{
 	vertical-align: middle;
 }
@@ -235,9 +236,6 @@ h4 {
 }
 p {
   font-size: 5vmin;
-}
-.logo {
-	width: 55vw;
 }
 
 .nav-bar {

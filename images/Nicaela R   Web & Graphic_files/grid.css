@@ -1,0 +1,73 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+[class^='col-'] {
+  float: left;
+  padding: 10px;
+}
+
+/* Floats last ".bit-" to the right */
+[class^='col-']:last-of-type {
+  padding-right: 10px;
+
+}
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+.container {padding:10%;}
+
+/* No Padding Divs */
+.col-12  {width: 100%; }
+.col-11  {width: 91.66%;}
+.col-10  {width: 83.33%;}
+.col-9  {width: 75%;}
+.col-8  {width: 66.66%;}
+.col-7  {width: 58.33%;}
+.col-6  {width: 50%;}
+.col-5  {width: 41.66%;}
+.col-4  {width: 33.33%;}
+.col-3 {width: 25%;}
+.col-2 {width: 16.66%;}
+.col-1 {width: 8.33%;}
+
+
+/* Tablets */
+@media (min-device-width: 481px) and (max-device-width: 800px) {
+	.col-1 {width:100%;} 
+	.col-12, .col-11 {width:100%;}
+	.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10 {width:50%;}
+
+}
+
+/* Smartphones */
+@media (max-device-width: 480px) {
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{width:100%;}
+}
+
+@media(max-width: 767px) {
+  .navbar {
+     position:fixed; top:0; left:0; z-index:1030;
+   }
+}
+
+@media (max-device-width: 750px) {
+  ul li, li {width:100%;}
+ 
+}
+
+
+.div-content
+{
+  border-radius: 5px;
+  background: #00F5D0;
+  height:30px;
+}
+
+.html {
+	font-family: 'Dosis', sans-serif;
+}
