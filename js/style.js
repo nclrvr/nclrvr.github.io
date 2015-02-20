@@ -127,6 +127,16 @@ function show_modal(modal_id){
   
      //show the modal window  
     $('#'+modal_id).fadeIn(500);  
+
+    $('body').blur(function(){
+  
+});
   
 }  
-
+$(document).keyup(function(e) { 
+    if (e.keyCode == 27) { 
+        $("#mask").fadeOut(500);
+        $('.modal_window').fadeOut(500);  
+        
+    } 
+});
