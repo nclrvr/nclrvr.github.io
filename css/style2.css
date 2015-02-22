@@ -146,6 +146,9 @@ a:hover {
 	margin-top: 5%;
 }
 
+.box {
+	text-align: center;
+}
 
 /* Overline Reveal */
 .hvr-overline-reveal {

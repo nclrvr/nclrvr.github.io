@@ -106,7 +106,6 @@ return false;
   
 });  
   
-//THE FUNCTIONS  
   
 function close_modal(){  
   
