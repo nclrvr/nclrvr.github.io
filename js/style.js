@@ -36,7 +36,7 @@ $(window).scroll(function() {
 
   }
   else {
-   $('.navbar').css({'position':'absolute','top': stickToBot +'px', 'background':'white'});
+   $('.navbar').css({'position':'absolute','top': stickToBot +'px', 'background':'#fafafa'});
     $('ul li').css({'font-size':'1em'});
     $('.nav-logo').fadeOut();
 
@@ -138,12 +138,4 @@ $(document).keyup(function(e) {
         $('.modal_window').fadeOut(500);  
         
     } 
-});
-
-$(document).ready(function() {
-
-    // lets push in a viewport 
-    var vpw = (screen.width>=768)?'980':'device-width';
-    $('head').prepend('<meta name="viewport" content="width='+vpw+'" />');
-
 });
