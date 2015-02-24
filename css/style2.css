@@ -69,7 +69,7 @@ ol li{
 }
 
 div#home {
-height: 100vh;
+height: 100%;
 	background: #fafafa;
 }
 
@@ -308,9 +308,9 @@ p, ul li {
 	color: #fafafa;
 }
   
-@media only (max-device-width: 768px) {
+@media only screen and (max-device-width: 768px) {
 .div#home {
-  background: red;
-}
+  height: 100%}
+
 }
 

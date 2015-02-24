@@ -139,3 +139,11 @@ $(document).keyup(function(e) {
         
     } 
 });
+
+$(document).ready(function() {
+
+    // lets push in a viewport 
+    var vpw = (screen.width>=768)?'980':'device-width';
+    $('head').prepend('<meta name="viewport" content="width='+vpw+'" />');
+
+});
