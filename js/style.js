@@ -36,7 +36,7 @@ $(window).scroll(function() {
 
   }
   else {
-   $('.navbar').css({'position':'absolute','top': stickToBot +'px', 'background':'#fafafa'});
+   $('.navbar').css({'position':'absolute','top': stickToBot +'px'});
     $('ul li').css({'font-size':'1em'});
     $('.nav-logo').fadeOut();
 

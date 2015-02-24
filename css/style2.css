@@ -83,8 +83,8 @@ ol li{
 	font-size: smaller;
 }
 
-#home {
-	height: 100vh;
+div#home {
+
 	background: #fafafa;
 	position: relative;
 	  display: table;
