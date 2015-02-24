@@ -344,7 +344,7 @@ p, ul li {
   
   .modal-window {
       width: 85vw;
-    height: 50vh;
+    height: 50%;
     position: fixed;
     top: 50%; 
     left: 50%;
