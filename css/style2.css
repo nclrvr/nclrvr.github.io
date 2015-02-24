@@ -341,10 +341,14 @@ p, ul li {
     #container {  
         width: 95%;  
     }  
+
+    div#home {
+      height: 100vh;
+    }
   
   .modal-window {
       width: 85vw;
-    height: 90vh;
+    height: 90%;
     position: fixed;
     top: 50%; 
     left: 50%;
