@@ -68,8 +68,8 @@ ol li{
 	font-size: smaller;
 }
 
-div#hme {
-
+div#home {
+height: 100vh;
 	background: #fafafa;
 }
 
@@ -308,13 +308,9 @@ p, ul li {
 	color: #fafafa;
 }
   
-@media only (max-device-width: 768px) and (max-width: 979px) {
-  #hcontent {
-    max-height: 100%;
-  }
-
-  .logo {
-    width: 50%;
-  }
+@media only (max-device-width: 768px) {
+.div#home {
+  background: red;
+}
 }
 
