@@ -68,8 +68,8 @@ ol li{
 	font-size: smaller;
 }
 
-div#hme {
-height: 100%;
+div#home {
+height: 100vh;
 	background: #fafafa;
 }
 
