@@ -84,7 +84,7 @@ ol li{
 }
 
 div#home {
-	height: 100vh;
+	max-height: 100vh;
 	background: #fafafa;
 	position: relative;
 	  display: table;
