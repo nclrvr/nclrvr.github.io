@@ -335,4 +335,15 @@ p, ul li {
 	background: rgb(34, 238, 187);
 	color: #fafafa;
 }
+
+/*Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    #container {  
+        width: 95%;  
+    }  
   
+  
+    img {  
+        width: 25%;  
+    }  
+}  
