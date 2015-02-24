@@ -71,9 +71,6 @@ ol li{
 div#home {
 	height: 100vh;
 	background: #fafafa;
-	position: relative;
-	  display: table;
-    width: 100vw;
 }
 
 small {
