@@ -342,8 +342,19 @@ p, ul li {
         width: 95%;  
     }  
   
+  .modal-window {
+      width: 85vw;
+    height: 50vh;
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    z-index: 11; 
+    display: none;
+    overflow-y: scroll;
+    background: #fff;
+  }
   
-    .main-logo {  
+    .logo {  
         width: 25%;  
     }  
 }  
