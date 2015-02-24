@@ -84,7 +84,7 @@ ol li{
 }
 
 div#home {
-
+height: 100vh;
 	background: #fafafa;
 	position: relative;
 	  display: table;
@@ -278,9 +278,7 @@ h4 {
 p, ul li {
   font-size: 5vmin;
 }
-.logo {
-	width: 55vw;
-}
+
 
 .nav-bar {
 	display: inline-block;
