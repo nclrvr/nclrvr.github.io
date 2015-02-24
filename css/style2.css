@@ -88,7 +88,7 @@ div#home {
 	background: #fafafa;
 	position: relative;
 	  display: table;
-    width: 100%;
+    width: 100vw;
 }
 
 small {
