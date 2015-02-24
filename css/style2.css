@@ -83,7 +83,7 @@ ol li{
 	font-size: smaller;
 }
 
-div#home {
+#home {
 	height: 100vh;
 	background: #fafafa;
 	position: relative;
