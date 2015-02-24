@@ -84,7 +84,7 @@ ol li{
 }
 
 div#home {
-	max-height: 100vh;
+	height: 100vh;
 	background: #fafafa;
 	position: relative;
 	  display: table;
@@ -335,30 +335,4 @@ p, ul li {
 	background: rgb(34, 238, 187);
 	color: #fafafa;
 }
-
-/*Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-    #container {  
-        width: 95%;  
-    }  
-
-    div#home {
-      height: 100vh;
-    }
   
-  .modal-window {
-      width: 85vw;
-    height: 90%;
-    position: fixed;
-    top: 50%; 
-    left: 50%;
-    z-index: 11; 
-    display: none;
-    overflow-y: scroll;
-    background: #fff;
-  }
-  
-    .logo {  
-        width: 25%;  
-    }  
-}  
