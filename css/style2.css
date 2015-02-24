@@ -68,7 +68,7 @@ ol li{
 	font-size: smaller;
 }
 
-div#hoe {
+div#home {
 	height: 100vh;
 	background: #fafafa;
 	position: relative;
@@ -100,11 +100,6 @@ div#contact {
 }
 
 
-#hcontnt {
-	 display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
 
 .navbar {
 text-align: center;
