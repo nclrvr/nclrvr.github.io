@@ -336,3 +336,13 @@ p, ul li {
 	color: #fafafa;
 }
   
+@media only screen and (max-device-width: 768px) {
+  .div#home {
+    max-height: 100%;
+  }
+
+  .logo {
+    width: 50%;
+  }
+}
+
