@@ -337,7 +337,7 @@ p, ul li {
 }
   
 @media only (max-device-width: 768px) and (max-width: 979px) {
-  .div#home {
+  #hcontent {
     max-height: 100%;
   }
 
