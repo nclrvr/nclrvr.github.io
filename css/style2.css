@@ -53,22 +53,7 @@ hr {
 	color: #2b2b2b;
 }
 
-.circular {
-	 background-repeat: no-repeat;
-    background-position: 50%;
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-    padding: 0 15% 0 15%;
-	 -ms-transform: rotate(-10deg); /* IE 9 */
-    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
-    transform: rotate(-10deg);
-	
-	}
 
-.circular:hover {
-	opacity: .8;
-}
 
 .text-center {
 	text-align: center;
@@ -83,7 +68,7 @@ ol li{
 	font-size: smaller;
 }
 
-div#home {
+div#hoe {
 	height: 100vh;
 	background: #fafafa;
 	position: relative;
@@ -114,11 +99,6 @@ div#contact {
 
 }
 
-#outer {
-    display: table;
-    width: 100%;
-    height: 100%; /* Height can be anything */
-}
 
 #hcontent {
 	 display: table-cell;
