@@ -128,7 +128,7 @@ div#contact {
 
 .navbar {
 text-align: center;
-position: relative;
+position: absolute;
 z-index: 1;
 }
 
