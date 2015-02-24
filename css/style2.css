@@ -280,6 +280,9 @@ p, ul li {
   font-size: 5vmin;
 }
 
+div#home {
+  max-height: 100vh;
+}
 
 .nav-bar {
 	display: inline-block;
