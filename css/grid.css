@@ -13,11 +13,6 @@
   padding: 10px;
 }
 
-/* Floats last ".bit-" to the right */
-[class^='col-']:last-of-type {
-  padding-right: 10px;
-
-}
 @import url(http://fonts.googleapis.com/css?family=Dosis);
 .container {padding:10%;}
 
@@ -49,25 +44,8 @@
 	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{width:100%;}
 }
 
-@media(max-width: 767px) {
-  .navbar {
-     position:fixed; top:0; left:0; z-index:1030;
-   }
-}
 
 @media (max-device-width: 750px) {
   ul li, li {width:100%;}
  
-}
-
-
-.div-content
-{
-  border-radius: 5px;
-  background: #00F5D0;
-  height:30px;
-}
-
-.html {
-	font-family: 'Dosis', sans-serif;
 }
