@@ -3,7 +3,6 @@ $(document).ready(function() {
  var stickToBot = wHeight - $('.nav').outerHeight(true);
    $('.logo').hide();
  $('.logo').fadeIn();
-
  $('.navbar').hide();
  $('.nav-logo').hide();
 
